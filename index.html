@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="weather">
+        <h2>WEATHER APP</h2>
+        <div id="error"></div>
+        <input type="text" id="input-location" placeholder="Enter City or Country Name">
+        <button id="check-btn" onclick="checkWeather()">CHECK</button>
+        
+        <div id="api-data">
+        <table id="table">
+            <div id="cross-btn"> </div>
+            <tr id="city-country-name">
+                <!-- data will come here -->
+            </tr>
+            <tr id="temperature-data">
+                <!-- data will come here -->
+            </tr>
+            <tr id="max-tempareture">
+                <!-- data will come here -->
+            </tr>
+            <tr id="min-tempareture">
+                <!-- data will come here -->
+            </tr>
+        </table>
+        </div>
+    
+    </div>
+</body>
+</html>
